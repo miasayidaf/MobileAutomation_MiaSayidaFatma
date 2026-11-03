@@ -108,19 +108,3 @@ MobileAutomation_MiaSayidaFatma/
 ├── wdio.conf.js
 └── package.json
 ```
-
-### Penjelasan Struktur Folder
-
-| Folder / File | Deskripsi |
-|---|---|
-| `features/eraspace/login.feature` | Skenario Login dalam format Gherkin (Given, When, Then). |
-| `features/pageobjects/eraspace.page.js` | Locator dan fungsi interaksi aplikasi dengan Page Object Model. |
-| `features/step-definitions/eraspace.steps.js` | Implementasi langkah-langkah dari Feature File. |
-| `config/locators.json` | Selector elemen aplikasi Eraspace. |
-| `config/locators.example.json` | Contoh konfigurasi selector. |
-| `scripts/check-setup.js` | Pemeriksaan environment dan konfigurasi automation. |
-| `evidence/` | Screenshot hasil pengujian. |
-| `.env.example` | Template konfigurasi environment. |
-| `.gitignore` | Daftar file/folder yang tidak disertakan dalam Git. |
-| `wdio.conf.js` | Konfigurasi WebdriverIO, Appium, Cucumber, dan reporter. |
-| `package.json` | Dependencies dan perintah menjalankan automation. |
